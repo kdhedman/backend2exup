@@ -1,6 +1,6 @@
 # backend2exup
-ExaminationsUpg Backend2
+Examinationsuppgift kurs Backend2
 
 # Medverkande
-David Hedman
+David Hedman  
 Jesper Jansson (Diskussioner och stöd, ej kod)
