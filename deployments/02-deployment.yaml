@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: b2hello-deployment
+  namespace: b2apps
+  labels:
+    app: b2hello
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: b2hello
+  template:
+    metadata:
+      labels:
+        app: b2hello
+    spec:
+      containers:
+        - name: b2hello
+          image: kenthdavid/backend2exupg:0.0.1
+          imagePullPolicy: IfNotPresent
